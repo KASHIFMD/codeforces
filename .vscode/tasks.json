@@ -30,7 +30,7 @@
       "command": "bash",
       "args": [
         "-c",
-		"g++ ${file} -o ${fileDirname}/${fileBasenameNoExtension} && ${fileDirname}/${fileBasenameNoExtension} < ${fileDirname}/input.txt > ${fileDirname}/output.txt"
+        "g++ ${file} -o ${fileDirname}/${fileBasenameNoExtension} && ${fileDirname}/${fileBasenameNoExtension} < ${fileDirname}/input.txt > ${fileDirname}/output.txt"
       ],
       "options": {
         "cwd": "${fileDirname}"
